@@ -1,0 +1,48 @@
+body, html {
+	font-family: Roboto;
+	background-color: #7ddfe0;
+}
+
+#index-banner {
+	text-align: center;
+	padding-top: 5%;
+}
+
+#header-logo {
+	width: 200px;
+	height: auto;
+	margin-top: 50px;
+}
+
+.app-btn {
+	width: 70%;
+	height: auto;
+}
+
+.get-app-container {
+	margin-top: 70px;
+}
+
+.get-app-container .col {
+	padding: 10px;
+}
+
+#iphone {
+	background: url('/images/iphone6.png') no-repeat center center;
+	height: 800px;
+	width: 410px;
+}
+
+video {
+	padding: 0px 13px 10px 25px;
+		position: relative;
+		top: 95px;
+		right: 6px;
+}
+
+@media (min-width: 768px){
+}
+
+@media (max-width: 769px){
+
+}
