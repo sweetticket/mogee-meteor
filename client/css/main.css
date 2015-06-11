@@ -34,10 +34,10 @@ body, html {
 }
 
 video {
-	padding: 0px 13px 10px 25px;
+	padding: 0px 10px 10px 25px;
 		position: relative;
 		top: 95px;
-		right: 6px;
+		right: 8px;
 }
 
 @media (min-width: 768px){
