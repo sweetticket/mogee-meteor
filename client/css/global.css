@@ -6,7 +6,8 @@ html, body, .container-fluid {
 }
 
 .container {
-	margin: 0 6%;
+	margin: 0 auto;
+	width: 70%;
 }
 
 @font-face {

@@ -3,6 +3,17 @@ body, html {
 	background-color: #7ddfe0;
 }
 
+/*body {
+	background-image: url('/images/bg.jpg') no-repeat;
+	background-size: cover;
+	min-height: 2000px;
+}*/
+
+h1 {
+	font-size: 30px;
+	font-family: Genome;
+}
+
 #index-banner {
 	text-align: center;
 	padding-top: 5%;
@@ -12,6 +23,10 @@ body, html {
 	width: 200px;
 	height: auto;
 	margin-top: 50px;
+}
+
+#index-banner .container {
+	padding-right: 5%;
 }
 
 .app-btn {
@@ -24,8 +39,14 @@ body, html {
 }
 
 .get-app-container .col {
-	padding: 10px;
+	padding: 5px;
 }
+
+.header-text {
+	position: relative;
+	right: 5%;
+}
+
 
 #iphone {
 	background: url('/images/iphone6.png') no-repeat center center;
