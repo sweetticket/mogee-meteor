@@ -34,6 +34,21 @@ h1 {
 	height: auto;
 }
 
+.apple-btn, .apple-btn:link, .apple-btn:visited {
+	opacity: 1;
+	-webkit-transition: opacity .2s linear;
+        -moz-transition: opacity .2s linear;
+        transition: opacity .2s linear;
+}
+
+.apple-btn:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	-webkit-transition: opacity .2s linear;
+        -moz-transition: opacity .2s linear;
+        transition: opacity .2s linear;
+}
+
 .get-app-container {
 	margin-top: 70px;
 }
@@ -66,4 +81,22 @@ video {
 
 @media (max-width: 769px){
 
+}
+
+.footer-link, .footer-link:link, .footer-link:visited {
+	color: #fff;
+	opacity: 1;
+}
+
+.footer-link:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	-webkit-transition: opacity .2s linear;
+        -moz-transition: opacity .2s linear;
+        transition: opacity .2s linear;
+}
+
+.social-icon {
+	font-size: 30px;
+	padding: 5px 15px;
 }
