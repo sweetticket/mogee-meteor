@@ -76,12 +76,40 @@ video {
 		right: 8px;
 }
 
-@media (min-width: 768px){
+@media (max-width: 992px){
+	.section {
+		margin-left: 10%;
+		text-align: center;
+	}
+	/*#iphone {
+		margin-left: 7%;
+	}*/
 }
 
-@media (max-width: 769px){
+@media only screen and (max-width: 667px){
 
+	.section {
+		text-align: center;
+		margin: 0 auto;
+
+	}
+
+
+	#index-banner .container {
+		padding-right: 0%;
+	}
+
+	#iphone {
+		margin: 0 auto;
+		margin-left: -25vw;
+	}
+
+	video {
+
+	}
 }
+
+
 
 .footer-link, .footer-link:link, .footer-link:visited {
 	color: #fff;

@@ -9,6 +9,7 @@ if (Meteor.isClient) {
   });
 
   Template.Main.rendered = function () {
+
   }
 
   Template.Main.events({
