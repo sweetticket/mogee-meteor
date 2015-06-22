@@ -91,6 +91,15 @@ video {
 	transform: translateX(-50.5%);
 }
 
+.video-phone {
+	background: url("/images/flatphone_white.png") no-repeat 0 0;
+	width: 324px;
+	height: 689px;
+	padding: 100px 21px 95px 25px;
+	display: inline-block;
+	position: relative;
+}
+
 
 @media (min-width: 668px){
 
@@ -99,37 +108,6 @@ video {
 	*/	position: relative;
 		left: 60px;
 	}
-}
-
-@media (max-width: 992px){
-
-	.carousel-col {
-		position: relative;
-		left: 0;
-	}
-	
-}
-
-@media only screen and (max-width: 667px){
-
-	.section {
-		text-align: center;
-		margin: 0 auto;
-
-	}
-
-
-	#index-banner .container {
-		padding-right: 0%;
-	}
-
-	.carousel-col {
-		position: relative;
-		left: 0;
-		padding-left: 0;
-		margin-left: 0;
-	}
-
 }
 
 
@@ -159,16 +137,33 @@ video {
 .links-section h5, .links-section ul {
 	padding-left: 30px;
 }
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+
+	.carousel-col {
+		position: relative;
+		left: -21.7% !important;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
 }
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 736px) {
+and (max-device-width : 568px) 
+and (orientation : landscape) {
 
 	.carousel-col {
-	  position: relative;
-	  left: 0;
-	  padding-left: 0;
-	  margin-left: 0;
+		position: relative;
+		left: 10% !important;
+		padding-left: 0;
+		margin-left: 0;
 	}
+
 }
