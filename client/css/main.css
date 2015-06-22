@@ -110,7 +110,6 @@ video {
 }
 
 
-
 .footer-link, .footer-link:link, .footer-link:visited {
 	color: #fff;
 	opacity: 1;
@@ -131,6 +130,10 @@ video {
 
 .connect-section p {
 	position: relative;
-	left: 27%;
-	text-align: center;
+/*	left: 27%;
+*/	text-align: center;
+}
+
+.links-section h5, .links-section ul {
+	padding-left: 30px;
 }
