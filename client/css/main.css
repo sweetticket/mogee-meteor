@@ -28,26 +28,6 @@ h1 {
 #index-banner .container {
 }
 
-.app-btn {
-	width: 70%;
-	height: auto;
-}
-
-.apple-btn, .apple-btn:link, .apple-btn:visited {
-	opacity: 1;
-	-webkit-transition: opacity .2s linear;
-        -moz-transition: opacity .2s linear;
-        transition: opacity .2s linear;
-}
-
-.apple-btn:hover {
-	opacity: 0.8;
-	cursor: pointer;
-	-webkit-transition: opacity .2s linear;
-        -moz-transition: opacity .2s linear;
-        transition: opacity .2s linear;
-}
-
 .get-app-container {
 	margin-top: 70px;
 }
@@ -181,6 +161,41 @@ and (orientation : portrait) {
 		margin-left: 0;
 	}
 
+	.section, .container-fluid {
+		width: 320px;
+	}
+
+	.get-app-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.btn-large {
+		width: 250px;
+		position: relative;
+		right: 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.btn-container {
+		width: 315px;
+	}
+
+	.page-footer, footer {
+		width: 321px;
+	}
+
+	.video-phone {
+		width: 320px;
+		position: relative;
+		right: 2px;
+	}
+
+	.links-section h5, .links-section ul {
+		padding-left: 0;
+	}
+
 }
 
 @media only screen 
@@ -194,6 +209,11 @@ and (orientation : landscape) {
 		padding-left: 0;
 		margin-left: 0;
 	}
+
+	.links-section h5, .links-section ul {
+		padding-left: 0;
+	}
+
 
 }
 
