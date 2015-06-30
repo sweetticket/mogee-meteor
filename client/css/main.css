@@ -230,15 +230,93 @@ and (orientation : landscape) {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : portrait) {
-	.carousel-col {
+	
+	#index-banner {
+		padding-left: 8%;
+		padding-top: 7%;
+	}
 
+	.page-footer {
+		width: 375px;
+	}
+
+	.header-text {
+		position: relative;
+		left: 5px;
+	}
+
+	#header-logo {
+		margin-left: 10px;
 	}
 }
 
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
-and (orientation : portrait) {
+and (orientation : landscape) {
+
+	#index-banner {
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.header-text {
+		position: relative;
+		left: -12%;
+	}
+
+	.carousel-col {
+		position: relative;
+		left: -13% !important;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	#header-logo {
+		width: 50%;
+	}
+
+	.btn-container .btn-large {
+		width: 70%;
+	}
+
+	.btn-content {
+		position: relative;
+		top: 10px;
+		left: 5px;
+	}
+
+	.btn-content i {
+		position: relative;
+		top: 10px;
+		left: -5px;
+	}
+
+	footer .row {
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	footer .row .col.m4 {
+		width: 50%;
+	}
+
+	.connect-section {
+		position: relative;
+		left: -10px;
+		top: 120px;
+	}
+
+	.social-icon {
+		font-size: 40px;
+		padding: 5px 5px;
+	}
+
+	.links-section {
+		position: relative;
+		top: -80px;
+		left: 40px;
+	}
 
 }
 
