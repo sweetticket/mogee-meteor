@@ -248,6 +248,11 @@ and (orientation : portrait) {
 	#header-logo {
 		margin-left: 10px;
 	}
+
+	.jenny-link {
+		position: relative;
+		left: -50px;
+	}
 }
 
 @media only screen 
