@@ -148,7 +148,7 @@ video {
 }
 
 
-
+/* iphone 5 */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
@@ -196,6 +196,15 @@ and (orientation : portrait) {
 		padding-left: 0;
 	}
 
+	.footer-copyright {
+		min-height: 100px;
+	}
+
+	.jenny-link {
+		position: relative;
+		left: -10px;
+	}
+
 }
 
 @media only screen 
@@ -214,6 +223,107 @@ and (orientation : landscape) {
 		padding-left: 0;
 	}
 
+}
+
+/* iphone 6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+	.carousel-col {
+
+	}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
 
 }
 
+/* ipad mini */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+	#index-banner {
+		padding-top: 10%;
+	}
+
+	.header-text {
+		position: relative;
+		right: 55px;
+	}
+
+	#header-logo {
+		position: relative;
+		bottom: 10px;
+	}
+
+	.carousel-col {
+		position: relative;
+		left: -8% !important;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.page-footer .row {
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+
+	footer .row .col.m4 {
+		width: 40%;
+	}
+
+	footer p, footer a {
+		font-size: 20px;
+	}
+
+	footer h5 {
+		font-size: 30px;
+	}
+
+	.social-icon {
+		font-size: 40px;
+		padding: 5px 10px;
+	}
+
+	.links-section h5, .links-section ul {
+		margin-left: 50%;
+	}
+
+	.links-section {
+		position: relative;
+		bottom: 90px;
+	}
+
+	.connect-section {
+		position: relative;
+		top: 135px;
+		left: 105px;
+	}
+
+	.footer-copyright, .jenny-link a {
+		font-size: 18px;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+	#index-banner {
+		position: relative;
+		left: -5%;
+		padding-top: 7%;
+	}
+
+}
