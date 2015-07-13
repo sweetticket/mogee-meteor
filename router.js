@@ -96,6 +96,41 @@ Router.route('/',function () {
   
 });
 
+Router.route('/getmogee', function () {
+	this.render('GetMogee', {to: 'content'});
+});
+
+Router.route('/privacy', function () {
+  this.render('Privacy', {to: 'content'});
+});
+
+// WebApp.connectHandlers
+//   .use('/getmogee/', function(req, res, next) {
+//     // 301 Moved Permanently
+//     var iOS = ( navigator.userAgent.match(/iPad|iPhone|iPod/g) ? true : false );
+// 	var android = ( navigator.userAgent.match(/Android/i) ? true : false );
+
+// 	  if(iOS) {
+//       	alert("ios!");
+//         res.writeHead(301, {
+// 	      'Location': 'http://apple.co/1K2Oo74'
+// 	    });
+//       } else if(android) {
+//       	alert("android!");
+//       	res.writeHead(301, {
+// 	      'Location': 'https://play.google.com/store/apps/details?id=com.phronesistechne.mogeeapp'
+// 	    });
+//       } else {
+//       	alert("neither!");
+//       	res.writeHead(301, {
+// 	      'Location': 'https://mogeeapp.com'
+// 	    });
+//         // Router.go("/");
+//       }
+
+//     res.end();
+//   });
+
 // Router.route('/upload', function () {
 //   this.render('Upload', {to: 'content'});
 // });
